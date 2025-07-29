@@ -1,0 +1,27 @@
+{
+  "name": "curenet_api",
+  "version": "1.0.0",
+  "description": "**choosing Nodejs as our back-end , because of its robustness to connect or handle multiple connections without waiting for one to finish\r **\r ```Javascript\r mkdr simple-api-server\r cd simple-api-server\r npm init -y\r npm install express\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molomojc/CureNet_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molomojc/CureNet_API/issues"
+  },
+  "homepage": "https://github.com/molomojc/CureNet_API#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
